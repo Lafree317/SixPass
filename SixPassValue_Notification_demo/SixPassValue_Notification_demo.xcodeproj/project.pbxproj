@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52990A7E1BAA90BA00746B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52990A7D1BAA90BA00746B35 /* main.m */; };
+		52990A811BAA90BA00746B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52990A801BAA90BA00746B35 /* AppDelegate.m */; };
+		52990A831BAA90BA00746B35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52990A821BAA90BA00746B35 /* Images.xcassets */; };
+		52990A861BAA90BA00746B35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52990A841BAA90BA00746B35 /* LaunchScreen.xib */; };
+		52990A921BAA90BA00746B35 /* SixPassValue_Notification_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52990A911BAA90BA00746B35 /* SixPassValue_Notification_demoTests.m */; };
+		52990A9E1BAA90D100746B35 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52990A9C1BAA90D100746B35 /* FirstViewController.m */; };
+		52990A9F1BAA90D100746B35 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52990A9D1BAA90D100746B35 /* FirstViewController.xib */; };
+		52990AA31BAA90D900746B35 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52990AA11BAA90D900746B35 /* SecondViewController.m */; };
+		52990AA41BAA90D900746B35 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52990AA21BAA90D900746B35 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52990A8C1BAA90BA00746B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52990A701BAA90BA00746B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52990A771BAA90BA00746B35;
+			remoteInfo = SixPassValue_Notification_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52990A781BAA90BA00746B35 /* SixPassValue_Notification_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixPassValue_Notification_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52990A7C1BAA90BA00746B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52990A7D1BAA90BA00746B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52990A7F1BAA90BA00746B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52990A801BAA90BA00746B35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52990A821BAA90BA00746B35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52990A851BAA90BA00746B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52990A8B1BAA90BA00746B35 /* SixPassValue_Notification_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixPassValue_Notification_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52990A901BAA90BA00746B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52990A911BAA90BA00746B35 /* SixPassValue_Notification_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixPassValue_Notification_demoTests.m; sourceTree = "<group>"; };
+		52990A9B1BAA90D100746B35 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		52990A9C1BAA90D100746B35 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		52990A9D1BAA90D100746B35 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		52990AA01BAA90D900746B35 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		52990AA11BAA90D900746B35 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		52990AA21BAA90D900746B35 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52990A751BAA90BA00746B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52990A881BAA90BA00746B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52990A6F1BAA90BA00746B35 = {
+			isa = PBXGroup;
+			children = (
+				52990A7A1BAA90BA00746B35 /* SixPassValue_Notification_demo */,
+				52990A8E1BAA90BA00746B35 /* SixPassValue_Notification_demoTests */,
+				52990A791BAA90BA00746B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52990A791BAA90BA00746B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52990A781BAA90BA00746B35 /* SixPassValue_Notification_demo.app */,
+				52990A8B1BAA90BA00746B35 /* SixPassValue_Notification_demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52990A7A1BAA90BA00746B35 /* SixPassValue_Notification_demo */ = {
+			isa = PBXGroup;
+			children = (
+				52990A7F1BAA90BA00746B35 /* AppDelegate.h */,
+				52990A801BAA90BA00746B35 /* AppDelegate.m */,
+				52990A9B1BAA90D100746B35 /* FirstViewController.h */,
+				52990A9C1BAA90D100746B35 /* FirstViewController.m */,
+				52990A9D1BAA90D100746B35 /* FirstViewController.xib */,
+				52990AA01BAA90D900746B35 /* SecondViewController.h */,
+				52990AA11BAA90D900746B35 /* SecondViewController.m */,
+				52990AA21BAA90D900746B35 /* SecondViewController.xib */,
+				52990A821BAA90BA00746B35 /* Images.xcassets */,
+				52990A841BAA90BA00746B35 /* LaunchScreen.xib */,
+				52990A7B1BAA90BA00746B35 /* Supporting Files */,
+			);
+			path = SixPassValue_Notification_demo;
+			sourceTree = "<group>";
+		};
+		52990A7B1BAA90BA00746B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52990A7C1BAA90BA00746B35 /* Info.plist */,
+				52990A7D1BAA90BA00746B35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52990A8E1BAA90BA00746B35 /* SixPassValue_Notification_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52990A911BAA90BA00746B35 /* SixPassValue_Notification_demoTests.m */,
+				52990A8F1BAA90BA00746B35 /* Supporting Files */,
+			);
+			path = SixPassValue_Notification_demoTests;
+			sourceTree = "<group>";
+		};
+		52990A8F1BAA90BA00746B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52990A901BAA90BA00746B35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52990A771BAA90BA00746B35 /* SixPassValue_Notification_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52990A951BAA90BA00746B35 /* Build configuration list for PBXNativeTarget "SixPassValue_Notification_demo" */;
+			buildPhases = (
+				52990A741BAA90BA00746B35 /* Sources */,
+				52990A751BAA90BA00746B35 /* Frameworks */,
+				52990A761BAA90BA00746B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SixPassValue_Notification_demo;
+			productName = SixPassValue_Notification_demo;
+			productReference = 52990A781BAA90BA00746B35 /* SixPassValue_Notification_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52990A8A1BAA90BA00746B35 /* SixPassValue_Notification_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52990A981BAA90BA00746B35 /* Build configuration list for PBXNativeTarget "SixPassValue_Notification_demoTests" */;
+			buildPhases = (
+				52990A871BAA90BA00746B35 /* Sources */,
+				52990A881BAA90BA00746B35 /* Frameworks */,
+				52990A891BAA90BA00746B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52990A8D1BAA90BA00746B35 /* PBXTargetDependency */,
+			);
+			name = SixPassValue_Notification_demoTests;
+			productName = SixPassValue_Notification_demoTests;
+			productReference = 52990A8B1BAA90BA00746B35 /* SixPassValue_Notification_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52990A701BAA90BA00746B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52990A771BAA90BA00746B35 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52990A8A1BAA90BA00746B35 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52990A771BAA90BA00746B35;
+					};
+				};
+			};
+			buildConfigurationList = 52990A731BAA90BA00746B35 /* Build configuration list for PBXProject "SixPassValue_Notification_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52990A6F1BAA90BA00746B35;
+			productRefGroup = 52990A791BAA90BA00746B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52990A771BAA90BA00746B35 /* SixPassValue_Notification_demo */,
+				52990A8A1BAA90BA00746B35 /* SixPassValue_Notification_demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52990A761BAA90BA00746B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52990AA41BAA90D900746B35 /* SecondViewController.xib in Resources */,
+				52990A861BAA90BA00746B35 /* LaunchScreen.xib in Resources */,
+				52990A9F1BAA90D100746B35 /* FirstViewController.xib in Resources */,
+				52990A831BAA90BA00746B35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52990A891BAA90BA00746B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52990A741BAA90BA00746B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52990AA31BAA90D900746B35 /* SecondViewController.m in Sources */,
+				52990A811BAA90BA00746B35 /* AppDelegate.m in Sources */,
+				52990A9E1BAA90D100746B35 /* FirstViewController.m in Sources */,
+				52990A7E1BAA90BA00746B35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52990A871BAA90BA00746B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52990A921BAA90BA00746B35 /* SixPassValue_Notification_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52990A8D1BAA90BA00746B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52990A771BAA90BA00746B35 /* SixPassValue_Notification_demo */;
+			targetProxy = 52990A8C1BAA90BA00746B35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52990A841BAA90BA00746B35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52990A851BAA90BA00746B35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52990A931BAA90BA00746B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52990A941BAA90BA00746B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52990A961BAA90BA00746B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = SixPassValue_Notification_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52990A971BAA90BA00746B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = SixPassValue_Notification_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52990A991BAA90BA00746B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SixPassValue_Notification_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixPassValue_Notification_demo.app/SixPassValue_Notification_demo";
+			};
+			name = Debug;
+		};
+		52990A9A1BAA90BA00746B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SixPassValue_Notification_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixPassValue_Notification_demo.app/SixPassValue_Notification_demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52990A731BAA90BA00746B35 /* Build configuration list for PBXProject "SixPassValue_Notification_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52990A931BAA90BA00746B35 /* Debug */,
+				52990A941BAA90BA00746B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52990A951BAA90BA00746B35 /* Build configuration list for PBXNativeTarget "SixPassValue_Notification_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52990A961BAA90BA00746B35 /* Debug */,
+				52990A971BAA90BA00746B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52990A981BAA90BA00746B35 /* Build configuration list for PBXNativeTarget "SixPassValue_Notification_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52990A991BAA90BA00746B35 /* Debug */,
+				52990A9A1BAA90BA00746B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52990A701BAA90BA00746B35 /* Project object */;
+}
